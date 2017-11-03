@@ -69,7 +69,7 @@
 						console.log(dojo.currency.format(200, {currency: "USD"}));
 					},
 					error: function(response, ioArgs) {
-						alert("Load orders failure.");
+						alert("Load orders failure.\n" + response);
 					}
 		    	});
 		    }
